@@ -90,7 +90,7 @@ class _CalculatorState extends State<Calculator> {
                 calcButton('7', Colors.grey.shade800, Colors.white),
                 calcButton('8', Colors.grey.shade800, Colors.white),
                 calcButton('9', Colors.grey.shade800, Colors.white),
-                calcButton('x', Colors.lightBlueAccent, Colors.white),
+                calcButton('x', Colors.lightBlueAccent, Colors.black),
               ],
             ),
             SizedBox(
@@ -102,7 +102,7 @@ class _CalculatorState extends State<Calculator> {
                 calcButton('4', Colors.grey.shade800, Colors.white),
                 calcButton('5', Colors.grey.shade800, Colors.white),
                 calcButton('6', Colors.grey.shade800, Colors.white),
-                calcButton('-', Colors.lightBlueAccent, Colors.white),
+                calcButton('-', Colors.lightBlueAccent, Colors.black),
               ],
             ),
             SizedBox(
@@ -114,7 +114,7 @@ class _CalculatorState extends State<Calculator> {
                 calcButton('1', Colors.grey.shade800, Colors.white),
                 calcButton('2', Colors.grey.shade800, Colors.white),
                 calcButton('3', Colors.grey.shade800, Colors.white),
-                calcButton('+', Colors.lightBlueAccent, Colors.white),
+                calcButton('+', Colors.lightBlueAccent, Colors.black),
               ],
             ),
             SizedBox(
@@ -137,7 +137,7 @@ class _CalculatorState extends State<Calculator> {
                   ),
                 ),
                 calcButton('.', Colors.grey.shade800, Colors.white),
-                calcButton('=', Colors.lightBlueAccent, Colors.white),
+                calcButton('=', Colors.lightBlueAccent, Colors.black),
               ],
             )
           ],
